@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,33 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+
+
+.hover-underline-animation{
+  position: relative;
+}
+.hover-underline-animation:hover{
+  color: rgb(152, 11, 72);
+  transition: all 0.3s ease-in;
+}
+
+.hover-underline-animation::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: 0;  
+  left: 0;
+  background-color: rgb(152, 11, 72);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hover-underline-animation:hover::after{
+  transform: scaleX(1);
+  transform-origin: left;
 }
