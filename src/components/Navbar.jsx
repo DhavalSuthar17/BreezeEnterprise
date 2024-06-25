@@ -38,7 +38,7 @@ const Navbar = (
             <NavLink to="/">
               <div  onClick={() => {scrollToSection("home")}} className=" font-semibold text-lg  hover-underline-animation">Home</div>
               </NavLink>
-              
+
            
   
             <NavLink to="/products"  onClick={() => {scrollToSection("products")}}>

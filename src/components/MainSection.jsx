@@ -10,7 +10,7 @@ const MainSection = () => {
   return (
     <div id="home" className="bg-white flex xl:flex-row flex-col mt-6  lg:flex-row xl:justify-between lg:justify-between justify-center items-center  lg:min-h-[90vh] xl:min-h-[90vh]  w-11/12 mx-auto ">
       <div className="">
-        <div className=" font-josefin mx-6  ">
+        <div className="font-josefin mx-6  ">
           <div className="md:w-[500px] lg:w-[500px] xl:w-[500px] sm:w-[450px] w-[270px]">
             <p className="xl:text-[100px] lg:text-[95px] text-[50px] font-semibold text-[#D82782]">
               Breeze

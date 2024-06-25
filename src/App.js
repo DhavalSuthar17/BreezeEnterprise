@@ -4,7 +4,7 @@ import MainSection from './components/MainSection';
 import Products from './components/Products';
 import About from './components/About';
 
-import './App.css';
+//import './App.css';
 
 
 function App() {
